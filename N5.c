@@ -9,7 +9,7 @@ int main(){
     scanf("%i", &n);
 
     if(n < 0){
-        printf("Numero invalido paizao nao sobrou nada pro betinha");
+        printf("Numero invalido por ser negativo.");
 
     }else{
             for(int i = 1; i<=n; i++){
