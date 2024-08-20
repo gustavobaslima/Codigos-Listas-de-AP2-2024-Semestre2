@@ -4,7 +4,7 @@
 int main(){
     float idade, horasSemana;
 
-    printf("Por favor, informa a idade do aluno e suas horas semanais de estudo para categorizar o aluno: ");
+    printf("Por favor, informe a idade do aluno e suas horas semanais de estudo para categorizar o aluno: ");
     scanf("%f %f", &idade, &horasSemana);
 
     if(idade < 18 && horasSemana >=15){
