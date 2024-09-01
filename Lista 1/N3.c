@@ -8,7 +8,7 @@ int main(){
 
     printf("Insira os valores de 'a, b e c': ");
     scanf("%i %i %i", &a, &b, &c);
-    MenorAB =( a+ b + abs(a-b))/2;
+    MenorAB =( a+ b - abs(a-b))/2;
 
     if(MenorAB < c){
         printf("MenorAB eh menor.");
