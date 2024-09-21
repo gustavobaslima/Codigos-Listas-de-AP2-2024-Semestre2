@@ -26,4 +26,3 @@ struct VALORES{
         printf("\nValor anterior da bolsa: %.f", comp.vanterior);
         printf("\nValor que a acao caiu ou cresceu: %.f",comp.variacao);
         }
-
